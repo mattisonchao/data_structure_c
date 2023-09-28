@@ -54,10 +54,17 @@ dkms.conf
 .idea/
 
 cmake-build-debug/
+
 CMakeFiles
+
 CMakeCache.txt
+
 cmake_install.cmake
+
 CTestTestfile.cmake
+
 Testing/
+
 Makefile
+
 data_structure_tests
