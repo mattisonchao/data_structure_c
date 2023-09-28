@@ -23,7 +23,6 @@ Test(list_test, test) {
     cr_assert_eq(list_length(list), 1);
     // cleanup the list
     list_delete(list);
-    cr_assert_eq(list->data, NULL);
     cr_assert_eq(list_length(list), 0);
     free(list);
 }

@@ -4,9 +4,7 @@
 #include <stdio.h>
 
 typedef struct int_list {
-    int *data;
-    size_t size;
-    size_t capacity;
+
 } int_list_t;
 
 /**
