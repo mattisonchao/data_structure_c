@@ -14,7 +14,15 @@ brew install criterion
 ### Build project
 
 ```shell
-cmake .
+mkdir build
+```
+
+```shell
+cd build
+```
+
+```shell
+cmake ..
 ```
 
 ```shell
