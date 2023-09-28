@@ -23,14 +23,14 @@ void list_init(int_list_t *list, size_t initialCapacity);
 void list_delete(int_list_t *list);
 
 /**
- * Add a int element to the list collection
+ * Appends the specified element to the end of this list.
  * @param list  The list collection
  * @param element The int element
  */
 void list_push(int_list_t *list, int element);
 
 /**
- * Get a int element by index from the list collection
+ * Returns the element at the specified position in this list.
  * @param list The list collection
  * @param index  The index
  * @return Int element
@@ -47,7 +47,7 @@ int list_get(const int_list_t *list, int index);
 int list_remove(int_list_t *list, int index);
 
 /**
- * Get the size of collection
+ * Returns the number of elements in this list.
  * @param list The list collection
  * @return Size of collection
  */
