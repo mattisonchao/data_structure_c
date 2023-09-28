@@ -1,0 +1,5 @@
+/Users/mattisonchao/projects/mattison/data_structure_c/cmake-build-debug/CMakeFiles/data_structure_lib.dir
+/Users/mattisonchao/projects/mattison/data_structure_c/cmake-build-debug/CMakeFiles/tests.dir
+/Users/mattisonchao/projects/mattison/data_structure_c/cmake-build-debug/CMakeFiles/test.dir
+/Users/mattisonchao/projects/mattison/data_structure_c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mattisonchao/projects/mattison/data_structure_c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
