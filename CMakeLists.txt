@@ -20,11 +20,11 @@ mark_as_advanced(CRITERION_INCLUDE_DIR CRITERION_LIBRARY)
 # ----------------------------------------------------
 
 add_library(data_structure_lib src/list.c)
-add_executable(tests tests/list_test.c)
+add_executable(data_structure_tests tests/list_test.c)
 
-target_link_libraries(tests ${CRITERION_LIBRARIES} data_structure_lib)
+target_link_libraries(data_structure_tests ${CRITERION_LIBRARIES} data_structure_lib)
 include_directories(${CRITERION_INCLUDE_DIRS})
 include_directories(./include)
 
 enable_testing()
-add_test(NAME DATA_STRUCTURE_C COMMAND tests)
+add_test(NAME DATA_STRUCTURE_C COMMAND data_structure_tests)
