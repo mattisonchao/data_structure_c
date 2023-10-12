@@ -1,7 +1,8 @@
 #include <criterion/criterion.h>
 #include <list.h>
 
-Test(list_test, test) {
+Test(list_test, test)
+{
     int_list_t *list = malloc(sizeof(int_list_t));
     // Init list
     list_init(list, 5);

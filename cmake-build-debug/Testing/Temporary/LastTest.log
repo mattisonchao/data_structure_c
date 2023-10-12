@@ -1,19 +1,19 @@
-Start testing: Sep 28 12:19 CST
+Start testing: Oct 12 14:49 CST
 ----------------------------------------------------------
 1/1 Testing: DATA_STRUCTURE_C
 1/1 Test: DATA_STRUCTURE_C
-Command: "/Users/mattisonchao/projects/mattison/data_structure_c/cmake-build-debug/tests"
-Directory: /Users/mattisonchao/projects/mattison/data_structure_c/cmake-build-debug
-"DATA_STRUCTURE_C" start time: Sep 28 12:19 CST
+Command: "/Users/aliran/Desktop/data_structure_c/cmake-build-debug/data_structure_tests"
+Directory: /Users/aliran/Desktop/data_structure_c/cmake-build-debug
+"DATA_STRUCTURE_C" start time: Oct 12 14:49 CST
 Output:
 ----------------------------------------------------------
 [====] Synthesis: Tested: 1 | Passing: 1 | Failing: 0 | Crashing: 0 
 <end of output>
-Test time =   0.34 sec
+Test time =   0.58 sec
 ----------------------------------------------------------
 Test Passed.
-"DATA_STRUCTURE_C" end time: Sep 28 12:19 CST
+"DATA_STRUCTURE_C" end time: Oct 12 14:49 CST
 "DATA_STRUCTURE_C" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 28 12:19 CST
+End testing: Oct 12 14:49 CST

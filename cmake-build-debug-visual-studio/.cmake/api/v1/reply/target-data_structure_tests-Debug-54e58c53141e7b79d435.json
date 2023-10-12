@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "tests"
+			"path" : "data_structure_tests"
 		}
 	],
 	"backtrace" : 1,
@@ -55,7 +55,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics"
+					"fragment" : "-g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics"
+				},
+				{
+					"fragment" : "-std=gnu99"
 				}
 			],
 			"includes" : 
@@ -66,7 +69,7 @@
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/mattisonchao/projects/mattison/data_structure_c/./include"
+					"path" : "/Users/aliran/Desktop/data_structure_c/./include"
 				}
 			],
 			"language" : "C",
@@ -91,7 +94,7 @@
 			"id" : "data_structure_lib::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "tests::@6890427a1f51a3e7e1df",
+	"id" : "data_structure_tests::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -117,8 +120,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "tests",
-	"nameOnDisk" : "tests",
+	"name" : "data_structure_tests",
+	"nameOnDisk" : "data_structure_tests",
 	"paths" : 
 	{
 		"build" : ".",

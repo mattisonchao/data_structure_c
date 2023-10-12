@@ -49,7 +49,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics"
+					"fragment" : "-g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics"
+				},
+				{
+					"fragment" : "-std=gnu99"
 				}
 			],
 			"includes" : 
@@ -60,7 +63,7 @@
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/Users/mattisonchao/projects/mattison/data_structure_c/./include"
+					"path" : "/Users/aliran/Desktop/data_structure_c/./include"
 				}
 			],
 			"language" : "C",

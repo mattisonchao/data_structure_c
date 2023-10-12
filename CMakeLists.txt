@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.26.4)
+cmake_minimum_required(VERSION 3.25.2)
 
 project(data_structure_c)
 
@@ -28,3 +28,4 @@ include_directories(./include)
 
 enable_testing()
 add_test(NAME DATA_STRUCTURE_C COMMAND data_structure_tests)
+

@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.26.4"
+						"string" : "3.25.2"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -41,15 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "data_structure_lib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-data_structure_lib-Debug-2e231fa9f67044464e14.json",
+					"jsonFile" : "target-data_structure_lib-Debug-eeafffe346c80e7e1133.json",
 					"name" : "data_structure_lib",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "tests::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tests-Debug-069bb4740c8ce34d05c0.json",
-					"name" : "tests",
+					"id" : "data_structure_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-data_structure_tests-Debug-54e58c53141e7b79d435.json",
+					"name" : "data_structure_tests",
 					"projectIndex" : 0
 				}
 			]
@@ -58,12 +58,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/mattisonchao/projects/mattison/data_structure_c/cmake-build-debug",
-		"source" : "/Users/mattisonchao/projects/mattison/data_structure_c"
+		"build" : "/Users/aliran/Desktop/data_structure_c/cmake-build-debug-visual-studio",
+		"source" : "/Users/aliran/Desktop/data_structure_c"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 4
 	}
 }
