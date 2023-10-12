@@ -1,26 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct int_list  //typedef为整个int_list的结构体定义了一个新名称int_list_t
+typedef struct int_list
 {
-    int* elements;       //指针变量elements指向整型数组➡️用于存储列表中的元素
-                         //注意:elements是一个数组(访问数组中的第一个元素用elements[0])
-                         //用指针可以动态分配内存以适应列表的大小变化,就不需要提前确定列表的长度
-    size_t capacity;     //定义一个无符号整型capacity➡️当前分配的内存空间可以容纳的元素数量的上限
-    size_t size;         //定义一个无符号整型size变量➡️表示当前存储的元素数量
-} int_list_t;            //新名称➡️代码中用int_list_t表示整型数据列表
-
-void list_init(int_list_t* list, size_t initialCapacity)  //定义一个无返回值类型的list_init函数➡️用于初始化列表
-                                                          // 接收指向int_list_t类型的指针变量list为参数;
-                                                          // 另一个参数是无符号整型类型的变量initialCapacity➡️初始容量
+    int* elements;
+    size_t capacity;
+    size_t size;
+} int_list_t;
+void list_init(int_list_t* list, size_t initialCapacity)
 {
-    list->elements = (int*)malloc(initialCapacity * sizeof(int));//
+    list->elements = (int*)malloc(initialCapacity * sizeof(int));
     list->capacity = initialCapacity;
     list->size = 0;
-}                                          //以上为函数体
-
-void list_delete(int_list_t* list)      //定义一个无返回值类型的函数list_delete
-                                        //接收的参数为指向int_list_t自定义结构体类型的指针变量list
+}
+void list_delete(int_list_t* list)
 {
     free(list->elements);
     list->elements = NULL;
@@ -28,9 +21,7 @@ void list_delete(int_list_t* list)      //定义一个无返回值类型的函�
     list->size = 0;
 }
 
-void list_push(int_list_t* list, int element)  //定义一个无返回值类型的函数list_push
-       //接收参数:1.指向int_list_t类型的指针变量list;
-       //       2.整型变量element
+void list_push(int_list_t* list, int element)
 {
     if (list->size >= list->capacity)
     {
@@ -76,10 +67,10 @@ int list_length(const int_list_t* list)
     return list->size;
 }
 
-int main()                                    //程序入口
+int main()
 {
-    int_list_t list;                          //声明int_list_t类型的变量list
-    list_init(&list, 10);         //调用list_init函数,将list的地址作为参数传递出去
+    int_list_t list;
+    list_init(&list, 10);
 
     // 添加元素到列表
     list_push(&list, 5);
